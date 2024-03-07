@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "MENU",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Opis": {
+      "type": "blocks"
+    },
+    "Nazwa": {
+      "type": "string"
+    },
+    "cena": {
+      "type": "decimal"
+    },
+    "Kategoria": {
+      "type": "enumeration",
+      "enum": [
+        "torty",
+        "bezy",
+        "ciasta",
+        "desery"
+      ]
+    }
+  }
+}
